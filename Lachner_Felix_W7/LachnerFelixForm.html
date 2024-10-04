@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Vast+Shadow&display=swap" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+  <meta name="description" content="Home Improvement">
+  <meta name="keywords" content="House, Improvement, tools">
+  <meta name="author" content="Felix Lachner">
+
+<title>LachnerFelixTable</title>
+
+<link rel="icon" type="image/x-icon" href="TAB.png">
+
+<link rel="stylesheet" href="LachnerFelixStyleSheet.css">
+
+</head>
+<body>
+
+  <nav>
+    <b><a href="LachnerFelixHomepage.html">HOME</a> | <a href="LachnerFelixAboutpage.html">ABOUT</a> | <a href="LachnerFelixTable.html">TOOLS</a> | <a href="LachnerFelixForm.html" style="background-color: white;">SUBSCRIPTION</a>&nbsp;&nbsp;</b>
+    
+  <button type="button"
+  onclick="document.getElementById('demo').innerHTML = Date()">
+  Date and Time.</button>  
+  </nav>
+<p id="demo" style="font-size: 80%; text-align: right;" ></p>
+
+<h1><img src="logo1.png" alt="logo" style="width:400px"><br>
+<b onmouseover="style.color='rgb(255,153,0)'" onmouseout="style.color='white'">FELIX LACHNER'S HOME IMPROVEMENT</b></h1>
+
+<h2>Subscription Mailing List</h2>
+
+<p id="image"><img src="tool1.png" alt="House" style="width:200px"> &nbsp; &nbsp; &nbsp;<img src="tool2.png" alt="House" style="width:200px"> &nbsp; &nbsp; &nbsp;<img src="tool3.png" alt="House" style="width:200px"></p>
+
+<p class="center">Welcome to the Felix Lachner Home Improvement subscription page. 
+  <br><br>
+  Please fill in the form if you would like to recieve up-to-date articles on home improvement topics.</p>
+
+<form method="post" action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+
+  <fieldset>
+    <legend>Name:</legend>
+    First name:<br>
+    <input type="text" name="firstname"><br>
+    Last name:<br>
+    <input type="text" name="lastname"><br>
+  </fieldset>
+<br>
+    <fieldset>
+      <legend>Age:</legend> 
+      <select name="season">
+      <option value="18-20">18-20</option>
+      <option value="20-30">20-30</option>
+      <option value="30-40">30-40</option>
+      <option value="40-50">40-50</option>
+      <option value="50+">50+</option>
+    </select>
+    </fieldset>
+<br>
+    <fieldset>
+      <legend>DIY / Home improvement experience </legend>
+      <input type="radio" name="experience" value="Beginner">Beginner<br>
+      <input type="radio" name="experience" value="Moderate">Moderate<br>
+      <input type="radio" name="experience" value="Experienced">Experienced<br>
+      <input type="radio" name="experience" value="Professional">Professional<br>
+    </fieldset>
+<br>
+    <fieldset>
+      <legend>What areas of home improvement are you most interested in?</legend> 
+        <p style="font-size: 80%;">Check all that apply</p>
+      <input type="checkbox" name="subjects" value="Electrics">Electrics<br>
+      <input type="checkbox" name="subjects" value="Plumbing">Plumbing<br>
+      <input type="checkbox" name="subjects" value="Construction">Construction<br>
+      <input type="checkbox" name="subjects" value="Drywall Repair">Drywall Repair<br>
+      <input type="checkbox" name="subjects" value="Furniture Repair">Furniture Repair<br>
+      <input type="checkbox" name="subjects" value="Painting">Painting<br>
+      <input type="checkbox" name="subjects" value="Appliance repair/replacement">Appliance repair/replacement<br><br>
+      Any others? (Optional)<br><input type="text" name="Any others?"> <br>
+    </fieldset>
+<br>
+  <fieldset>
+    <legend>What are your future project plans?</legend> 
+    <p style="font-size: 80%;">Hold down the Ctrl (Windows) or Command (Mac) button to select multiple options.</p>
+    <select name="projects" id="projects" multiple="multiple" size="7">
+      <option value="Electric wiring">Electric wiring</option>
+      <option value="Plumbing">Plumbing</option>
+      <option value="Construction">Construction</option>
+      <option value="Drywall Repair">Drywall repair</option>
+      <option value="Furniture repair">Furniture Repair</option>
+      <option value="Painting">Painting</option>
+      <option value="Appliance repair/replacement">Appliance repair/replacement</option>
+    </select>
+    <br><br>
+    Any others? (Optional)<br><input type="text" name="Any others?"> <br>
+</fieldset>
+<br>
+    <fieldset>
+      <legend>Contact Information:</legend>
+      E-Mail:<br>
+      <input type="text" name="E-mail"><br>
+      Phone Number (Optional)<br>
+      <input type="text" name="Phone Number"><br>
+    </fieldset>
+<br>
+    <fieldset class="noStyle">
+      <legend>Any Questions, Suggestions or Requests for the website? (Optional)</legend>
+      <textarea name="message" rows="10" cols="80"></textarea>
+    </Fieldset>
+<br>
+    <fieldset class="noStyle">
+      <legend>Submit Your Form:</legend>
+      <input type="submit" value="Submit" class="noStyle2" style="background-color: rgb(255, 153, 0); font-weight: bold;">
+      <input type="reset" value="Reset" class="noStyle2" style="background-color: rgb(255, 153, 0); font-weight: bold;">
+    </fieldset>
+
+  </form>
+  <br>
+  <p class="center" style="font-size: 80% ;">Unsubscribe Anytime</p>
+  
+<br><br><br>
+<footer>
+  © Copyright, Felix Lachner, 2024
+</footer>
+
+</body>
+</html>

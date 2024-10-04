@@ -1,0 +1,109 @@
+body {
+  background-image: linear-gradient(rgb(205, 231, 190), rgb(129, 167, 130));
+  margin: 0 15%;
+  font-family:sans-serif;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family:Roboto Slab;
+  font-size: 200%;
+  border-bottom: 4px solid rgb(0, 0, 0);
+  letter-spacing: 6px;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0); 
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 200%;
+}
+
+#image{
+  text-align: center;
+}
+
+#p1{
+  text-align: center;
+}
+p{
+  font-size: 130%;
+}
+
+span.boldtext {
+	font-weight: bold;
+}
+
+span.italictext {
+	font-style: italic;
+  font-family: serif;
+  font-weight: bold;
+}
+
+h3{
+  font-size:200% ;
+}
+
+.center{
+  text-align: center;
+}
+nav {
+  color: #000000;
+  font-size: larger;
+  background-color: rgb(255, 153, 0);
+  text-align: right;
+  line-height: 4;
+}
+Table{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  align-items: center;
+  background-color: rgba(153, 212, 57, 0.534);
+  border:2px solid black;
+  border-collapse: collapse;
+  vertical-align: middle;
+  text-align: justify;
+}
+
+th, td {
+  padding: 15px;
+  border:2px solid black;
+}
+
+th{
+  background-color: rgb(255, 153, 0);
+  text-align: center;
+}
+
+form{
+  background-color:rgb(255, 153, 0);
+  padding: 15px;
+  width: 60%;
+  font-size: 130%;
+  margin-left: auto;
+  margin-right: auto;
+}
+fieldset{
+  background-color: white;
+}
+legend{
+  background-color: white;
+  font-weight: bold;
+}
+.noStyle{
+  font-weight: bold;
+  text-align: center;
+}
+.noStyle2{
+  font-size: 120%;
+}
+video{
+  border:rgb(255, 153, 0);
+}
+
+audio{
+  text-align: center;
+}
